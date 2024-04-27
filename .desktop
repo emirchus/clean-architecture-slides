@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=AppImage Example
+Exec=appimage_example %u
+Icon=appimage_example
+Categories=Utility;

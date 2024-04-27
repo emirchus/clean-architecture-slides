@@ -1,0 +1,34 @@
+name: flutter_clean
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_deck: ^0.14.0
+  flutter_deck_web_client: ^0.1.1
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.3
+  flutter_highlighting: ^0.9.0+11.8.0
+  highlighting: any
+  confirm_dialog: ^1.0.3
+  confetti: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+      - family: Argon
+        fonts:
+          - asset: assets/fonts/argon.ttf
